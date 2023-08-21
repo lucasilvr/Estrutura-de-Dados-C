@@ -2,17 +2,17 @@
 
 #include <stdio.h>
 
-main () {
-	int i;
+int main () {
 	char nome[20];
-	int media;
+	float media;
+	int i = 1;
 	
-	for (i; i<=4; i++) {
+	for (i; i<=5; i++) {
 		
 		printf("\nDigite o nome do aluno: ");
 		scanf("%s", nome);
 		printf("Digite a media final do aluno: ");
-		scanf ("%d", &media);
+		scanf ("%f", &media);
 		if (media >= 7) {
 			printf("\nAprovado!\n");
 		}
@@ -20,4 +20,5 @@ main () {
 			printf("\nReprovado!\n");
 		}
 	}
+	return 0;
 }
