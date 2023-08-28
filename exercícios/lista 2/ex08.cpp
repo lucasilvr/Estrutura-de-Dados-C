@@ -16,9 +16,9 @@ int main(){
 	float total = calcularValorSalario(hora_trabalho, hora_valor);
 	
 	cabecalho();
-	printf("O funcionario %s", funcionario "trabalhou %.1f horas no mes", hora_trabalho);
-	printf("O valor da hora e de R$ %.1f", hora_valor);
-	printf("O salario vai ser de R$ %.1f", total);
+	printf("\nO funcionario %s trabalhou %.1f horas no mes", funcionario, hora_trabalho);
+	printf("\nO valor da hora e de R$ %.1f", hora_valor);
+	printf("\nO salario vai ser de R$ %.1f", total);
 	
 }
 
