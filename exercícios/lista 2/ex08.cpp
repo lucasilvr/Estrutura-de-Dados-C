@@ -1,3 +1,10 @@
+/*  Peça ao usuário para digitar o nome do funcionário;
+Peça ao usuário para digitar a quantidade de horas trabalhadas no mês;
+Peça ao usuário para digitar o valor da hora;
+Execute a função para calcular o valor total = valor da hora x horas trabalhadas;
+Exibir na tela o cabeçalho e as informações do Nome, Quantidade de horas, Valor da hora e Valor total.
+*/
+
 #include <stdio.h>
 
 void cabecalho();

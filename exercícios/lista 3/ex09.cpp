@@ -1,3 +1,9 @@
+/* 
+1)	Peça ao usuário para digitar um número;
+2)	Faça uma função que calcule o fatorial deste número de forma iterativa;
+3)	Mostre o resultado do fatorial do número na tela do computador.
+*/
+
 #include <stdio.h>
 
 int fatorial (int num);
