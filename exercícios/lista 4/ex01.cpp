@@ -1,4 +1,5 @@
-/* Faça a média dos valores dos dados do vetor e mostre o resultado na tela*/
+//Faça a média dos valores dos dados do vetor e mostre o resultado na tela
+
 #include <stdio.h>
 
 int main(){

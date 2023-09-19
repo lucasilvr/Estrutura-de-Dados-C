@@ -1,4 +1,5 @@
 //Um programa que leia duas notas, calcule a média e mostra se o aluno foi aprovado ou não
+
 #include <stdio.h>
 
 float media(float v1, float v2);

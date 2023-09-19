@@ -1,4 +1,5 @@
 //Um programa que tenha duas funções: uma pra somar e uma pra subtrair
+
 #include <stdio.h>
 
 int soma (int n1, int n2);

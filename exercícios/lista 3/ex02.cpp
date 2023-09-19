@@ -1,3 +1,10 @@
+/* 
+Faça um programa em Linguagem C que atenda aos seguintes requisitos:
+1) Peça ao usuário para digitar um número N;
+2) Faça uma função que calcule a soma dos números de 1 a N, de forma recursiva;
+3) Mostre o resultado da soma na tela do computador. 
+*/
+
 #include <stdio.h>
 
 int soma(int);

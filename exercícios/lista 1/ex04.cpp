@@ -1,4 +1,5 @@
 // Faça um programa para calcular o fatorial de um número digitado pelo usuário
+
 #include <stdio.h>
 
 int main () {

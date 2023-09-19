@@ -1,3 +1,5 @@
+// Um programa pra multiplicar valores usando vetores
+
 #include <stdio.h>
 
 int main(){

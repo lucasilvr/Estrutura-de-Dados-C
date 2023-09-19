@@ -1,3 +1,5 @@
+//Um vetor que tenha tantos dados e tilize a estrutura de repetição for e calcule a soma de todos os elementos do vetor
+
 #include <stdio.h>
 
 int main(){

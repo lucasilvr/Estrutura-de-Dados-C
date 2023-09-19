@@ -1,4 +1,5 @@
-/*  Peça ao usuário para digitar o nome do funcionário;
+/*  
+Peça ao usuário para digitar o nome do funcionário;
 Peça ao usuário para digitar a quantidade de horas trabalhadas no mês;
 Peça ao usuário para digitar o valor da hora;
 Execute a função para calcular o valor total = valor da hora x horas trabalhadas;
