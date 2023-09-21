@@ -1,48 +1,32 @@
-/* 
-Faça um programa interativo, que peça ao usuário para digitar números inteiros e estes números 
-serão utilizados para preencher a matriz A.
-
-Durante o preenchimento da matriz A, gerar a matriz B de modo que, toda vez que um número negativo 
-for digitado, inserir 0 (zero) na matriz B. Os demais números serão iguais.
+/*
+Faça um programa interativo, que peça ao usuário para digitar números inteiros e estes números serão utilizados para preencher uma matriz A (4x4).
+Identifique qual foi o maior número digitado e mostre-o na tela do computador. 
+Identifique qual foi o menor número digitado e mostre-o na tela do computador.
 */
 
 #include <stdio.h>
 
 int main(){
 	
-	int A[4][3], B[4][3];
-	int i, j;
-	
-	
-	for (i=0; i<4; i++){
-		for (j=0; j<3; j++){
-			printf("Digite um numero inteiro [%d][%d]: ", i, j);
+	int A[4][4], maior =0, menor=0, i, j;
+
+	for (i= 0; i<4; i++){
+		for (j = 0; j<4; j++){
+			printf("Digite um numero inteiro [%d][%d]: ", i,j);
 			scanf("%d", &A[i][j]);
-			if (A[i][j] < 0){
-				B[i][j] = 0;
+			
+			if (A[i][j] > maior) {
+				maior = A[i][j];	
 			}
-			else {
-				B[i][j] = A[i][j];
-				}		
+			
+			if (A[i][j] < menor) {
+				menor = A[i][j];
 			}
 		}
-	
-	printf("\nMATRIZ A\n");
-	for (i=0; i<4; i++){
-		for (j=0; j<3; j++){
-			printf("%d\t", A[i][j]);
-		}
-		printf("\n");
 	}
 	
-	printf("\nMATRIZ B\n");
-	for (i=0; i<4; i++){
-		for (j=0; j<3; j++){
-			printf("%d\t", B[i][j]);
-	 	}
-		printf("\n");
-	}
-
+	printf("\nMaior numero digitado: %d", maior);
+	printf("\nMenor numero digitado: %d", menor);
+	
 	return 0;
-
 }
