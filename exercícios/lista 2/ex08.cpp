@@ -1,3 +1,5 @@
+//Programa que calcula a hipotenusa, o seno e o coseno
+
 #include <stdio.h>
 #include <math.h>
 
