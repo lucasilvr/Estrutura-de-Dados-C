@@ -1,3 +1,5 @@
+//Programa que pede para o usuário digitar valores dentro de uma matrriz 4x4 e identificar o maior e o menor número digitado
+
 #include <stdio.h>
 
 int main(){
