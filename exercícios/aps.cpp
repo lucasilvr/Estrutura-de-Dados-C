@@ -43,9 +43,9 @@ int main(){
 		float media = ((Alunos[i].AV1 + Alunos[i].AV2 + Alunos[i].AV3) - menorNota)/2.0;
 		
 		if (media >= 7.0) {
-			printf("%s tem media: %.1f e foi APROVADO!\n", Alunos[i], media);
+			printf("%s tem media: %.1f e foi APROVADO!\n", Alunos[i].nome, media);
 		} else {
-			printf("%s tem media: %.1f e foi REPROVADO!\n", Alunos[i], media);
+			printf("%s tem media: %.1f e foi REPROVADO!\n", Alunos[i].nome, media);
 		}
 	}
 	
