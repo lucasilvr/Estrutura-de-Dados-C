@@ -40,7 +40,7 @@ int main(){
 			menorNota = Alunos[i].AV3;
 		}
 		
-		float media = ((Alunos[i].AV1 + Alunos[i].AV2 + Alunos[i].AV3) - menorNota);
+		float media = ((Alunos[i].AV1 + Alunos[i].AV2 + Alunos[i].AV3) - menorNota)/2;
 		
 		if (media >= 7.0) {
 			printf("%s tem media: %.1f e foi APROVADO!\n", Alunos[i], media);
