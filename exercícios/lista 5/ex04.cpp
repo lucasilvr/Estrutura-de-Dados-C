@@ -2,16 +2,29 @@
 
 int main(){
 	
-	int A[3][3];
-	int i, j;
+	int A[4][4];
+	int i = 0, j = 0;
+	int menorNumero = A[0][0], maiorNumero;
 	
-	for(i = 0; i<3; i++){
-		for (j = 0; j<3; j++){
-				printf("A[%d][%d]: \n", i, j);
-				scanf("A[%d][%d]", A[i][j]);
+	for(i = 0; i<4; i++){
+		for (j = 0; j<4; j++){
+				printf("A[%d][%d]: ", i, j);
+				scanf("%d", &A[i][j]);
 		}
-	
 	}
+
+	for (i = 0; i<4; i++) {
+		for (j = 0; j<4; j++) {
+			if (A[i][j] < menorNumero) {
+				menorNumero = A[i][j];
+			}
+			if (A[i][j] > maiorNumero){
+				maiorNumero = A[i][j];
+			}
+		}
+	}
+	printf("maior: %d\n", maiorNumero);
+	printf("menor: %d", menorNumero);
 	
 	return 0;
 }
