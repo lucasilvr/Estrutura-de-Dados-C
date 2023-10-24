@@ -6,14 +6,17 @@ struct alunos {
 	float AV2;
 	float AV3;
 	};
+
 typedef struct alunos Alunos;
 
+void separar();
+	
 int main(){
 	
 	alunos Alunos[5];
 	
-	float menorNota;
 	for (int i = 0; i<5; i++) {
+		separar();
 		printf("Digite o nome do Aluno: ");
 		scanf("%s", &Alunos[i].nome);
 		fflush(stdin);
@@ -28,14 +31,16 @@ int main(){
 		fflush(stdin);
 		
 		
-		menorNota = Alunos[i].AV1;
+		float menorNota = Alunos[i].AV1;
 		if (Alunos[i].AV2 < menorNota) {
-		menorNota = Alunos[i].AV2;
-		} else if ( Alunos[1].AV3 < menorNota) {
-		menorNota = Alunos[i].AV3;
+			menorNota = Alunos[i].AV2;
 		}
 		
-		float media = (Alunos[i].AV1 + Alunos[i].AV2 + Alunos[i].AV3 - menorNota);
+		if (Alunos[i].AV3 < menorNota) {
+			menorNota = Alunos[i].AV3;
+		}
+		
+		float media = ((Alunos[i].AV1 + Alunos[i].AV2 + Alunos[i].AV3) - menorNota);
 		
 		if (media >= 7.0) {
 			printf("%s tem media: %.1f e foi APROVADO!\n", Alunos[i], media);
@@ -49,7 +54,8 @@ int main(){
 	}
 
 void separar (){
-	printf("============================");
+	printf("=========================\n");
+	return;
 }
 
 
