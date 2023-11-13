@@ -1,11 +1,5 @@
 #include <stdio.h>
 
-/*Alunos:
-Arthur De Oliveira Martins - 2022200127
-Miguel Castelo Branco Miranda - 2022200021
-Lucas Dias Silveira - 2022200377
-*/
-
 struct alunos {
 	char nome[70];
 	float AV1;
