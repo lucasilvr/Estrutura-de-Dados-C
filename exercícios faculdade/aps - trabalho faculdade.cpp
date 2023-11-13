@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/*Alunos:
+Arthur De Oliveira Martins - 2022200127
+Miguel Castelo Branco Miranda - 2022200021
+Lucas Dias Silveira - 2022200377
+*/
+
 struct alunos {
 	char nome[70];
 	float AV1;
@@ -18,11 +24,11 @@ int main(){
 	for (int i = 0; i<5; i++) {
 		separar();
 		printf("Digite o nome do Aluno: ");
-		scanf("%s", &Alunos[i].nome);
+		fgets(Alunos[i].nome, sizeof(Alunos[i].nome), stdin);
 		fflush(stdin);
 		printf("Digite a nota da AV1: ");
 		scanf("%f", &Alunos[i].AV1);
-		fflush(stdin);
+		getchar();
 		printf("Digite a nota da AV2: ");
 		scanf("%f", &Alunos[i].AV2);
 		fflush(stdin);
