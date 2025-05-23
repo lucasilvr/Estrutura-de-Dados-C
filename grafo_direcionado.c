@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /*
- * Esse código assume que o grafo é íntegro (não existem arestas para nós que não existem)
+    Esse código assume que o grafo é íntegro (não existem arestas para nós que não existem)
 
     Implementar a função retira vértice no dígrafo (grafo direcionado) completando o código onde diz "FAZER CODIGO AQUI".
     Esta função deve *excluir* o vértice do grafo.
