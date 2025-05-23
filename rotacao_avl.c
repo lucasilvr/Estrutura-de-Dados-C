@@ -3,8 +3,7 @@
 
 /*
 Implementar rotação esquerda e direita da árvore AVL.
-Completar o código onde está escrito /*FAZER CODIGO AQUI*/
-
+Completar o código onde está escrito /*FAZER CODIGO AQUI
 */
 
 typedef struct sNoAVL {
